@@ -1,7 +1,4 @@
-# To specify the base image version, edit build.yaml
-# Specifying BUILD_FROM=image:version in this file doesn't work
-ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM ghcr.io/home-assistant/base:latest
 
 ENV LANG=C.UTF-8
 
