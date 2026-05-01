@@ -330,6 +330,14 @@ class PlejdApi {
           dimmable: false,
           broadcastClicks: true,
         };
+      case 42:
+        return {
+          name: 'WRT-01',
+          description: 'Wireless rotary button',
+          type: 'device_automation',
+          dimmable: false,
+          broadcastClicks: true,
+        };
       case 11:
         return {
           name: 'DIM-01-2P',
